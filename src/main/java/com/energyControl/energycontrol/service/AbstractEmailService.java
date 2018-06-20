@@ -8,7 +8,7 @@ import java.util.Date;
 
 public abstract class AbstractEmailService implements EmailService{
 
-    private String sender = "leonardo@webmendes.com";
+    private String sender = "energycontrol03@gmail.com";
 
     @Override
     public void sendConsumeConfirmationEmail (Consume obj) {

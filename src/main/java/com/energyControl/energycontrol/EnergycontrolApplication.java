@@ -33,7 +33,7 @@ public class EnergycontrolApplication implements CommandLineRunner {
         companyService.insert(company);
         company.setId(1);
 
-        User user = new User("John White", "joaopedrocar@hotmail.com", company,  200.0);
+        User user = new User("John White", "joaopedrokyros@gmail.com", company,  200.0);
         userService.insert(user);
         user.setId(1);
 
