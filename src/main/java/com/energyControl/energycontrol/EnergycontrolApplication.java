@@ -29,7 +29,7 @@ public class EnergycontrolApplication implements CommandLineRunner {
 
     @Override
     public void run(String... arg0) throws Exception {
-        Company company = new Company("Cemig", 1.27);
+        Company company = new Company("Cemig", 0.04);
         companyService.insert(company);
         company.setId(1);
 
