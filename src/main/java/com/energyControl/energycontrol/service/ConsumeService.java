@@ -21,6 +21,10 @@ public class ConsumeService {
         return repo.findByUserId(user);
     }
 
+    public List<Consume> findAll(){
+        return repo.findAll();
+    }
+
     public Consume insert(Consume consume){
         consume.setId(null);
         consume.setCost(consume.getCompany().getCostRate() * consume.getQuantity());

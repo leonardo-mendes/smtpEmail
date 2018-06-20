@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface ConsumeRepository extends JpaRepository<Consume, Integer>{
 
-    public List<Consume> findByUserId(Integer id);
+    List<Consume> findByUserId(Integer id);
 
 }
 
